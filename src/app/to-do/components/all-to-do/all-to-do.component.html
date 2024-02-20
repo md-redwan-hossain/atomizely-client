@@ -1,0 +1,6 @@
+<p>all-to-do works!</p>
+<p-button class="btn-json" (click)="handleLoadData()">Load Data</p-button>
+
+@for(item of postData; track item.id){
+<p>{{ item.title }}</p>
+}
